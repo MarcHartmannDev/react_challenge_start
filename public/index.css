@@ -80,3 +80,7 @@ select {
 .tile-container {
   margin-bottom: 20px;
 }
+
+.example {
+  font-size: 0.7rem;
+}

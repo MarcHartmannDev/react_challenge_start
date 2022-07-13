@@ -11,7 +11,9 @@ export const ContactForm = (props) => {
         onChange={props.onNameChange}
         value={props.name}
       />
-      <label htmlFor="phone">Phone Number:</label>
+      <label htmlFor="phone">
+        Phone Number: <span class="example">(e.g. 0123 07614351)</span>
+      </label>
       <input
         type="text"
         id="phone"
@@ -22,7 +24,7 @@ export const ContactForm = (props) => {
       />
       <label htmlFor="email">Email Address:</label>
       <input
-        type="text"
+        type="email"
         id="email"
         name="email"
         onChange={props.onEmailChange}

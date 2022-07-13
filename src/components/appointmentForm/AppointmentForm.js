@@ -27,7 +27,7 @@ export const AppointmentForm = (props) => {
       />
       <label htmlFor="date">Date:</label>
       <input
-        type="text"
+        type="date"
         id="date"
         name="date"
         min={getTodayString()}
@@ -36,7 +36,7 @@ export const AppointmentForm = (props) => {
       />
       <label htmlFor="time">Time:</label>
       <input
-        type="text"
+        type="time"
         id="time"
         name="time"
         onChange={props.onTimeChange}

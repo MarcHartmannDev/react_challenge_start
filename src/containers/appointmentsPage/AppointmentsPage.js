@@ -18,6 +18,7 @@ export const AppointmentsPage = (props) => {
     setContact("");
     setDate("");
     setTime("");
+    document.getElementById("contacts").value = "";
   };
 
   const onTitleChange = ({ target }) => {

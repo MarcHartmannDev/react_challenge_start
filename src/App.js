@@ -3,6 +3,7 @@ import { Switch, Route, Redirect, NavLink } from "react-router-dom";
 
 import { AppointmentsPage } from "./containers/appointmentsPage/AppointmentsPage";
 import { ContactsPage } from "./containers/contactsPage/ContactsPage";
+import { Alert } from "react-alert";
 
 function App() {
   const [contacts, setContacts] = useState([]);
